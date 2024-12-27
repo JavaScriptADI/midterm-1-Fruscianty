@@ -15,3 +15,14 @@ let year = 2024;
 console.log(`${month}/${day}/${year}`);
 
 //4th
+const a = 5;
+const b = 6;
+const c = 7;
+
+//formula of P = (a+b+c)/2;
+//formula of S = √(P*(P-a)(P-b)(P-c));
+
+const P = (a+b+c)/2;
+const S = Math.sqrt(P*(P-a)*(P-b)*(P-c));
+
+console.log(S);
