@@ -26,3 +26,5 @@ const P = (a+b+c)/2;
 const S = Math.sqrt(P*(P-a)*(P-b)*(P-c));
 
 console.log(S);
+
+//5th
