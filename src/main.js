@@ -28,3 +28,12 @@ const S = Math.sqrt(P*(P-a)*(P-b)*(P-c));
 console.log(S);
 
 //5th
+const str = 'w3resource';
+const arr = [];
+
+for (let i = str.length - 1; i >= 0; i--) {
+  arr.push(str[i]);
+}
+
+const newStr = arr.join('');
+console.log(newStr);
