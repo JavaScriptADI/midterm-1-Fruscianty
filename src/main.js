@@ -37,3 +37,15 @@ for (let i = str.length - 1; i >= 0; i--) {
 
 const newStr = arr.join('');
 console.log(newStr);
+
+//8th 
+const game = function () {
+  const p = prompt('Insert a number between 1 and 10:');
+  const answer = Math.trunc(Math.random() * 10) + 1; 
+  Number(p) === answer
+    ? console.log('Good Work!')
+    : console.log(`Not matched. The correct number was ${answer}.`);
+};
+
+game();
+
